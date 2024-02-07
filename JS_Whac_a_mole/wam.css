@@ -1,0 +1,95 @@
+*{
+ margin:0;
+ padding: 0;
+ box-sizing: border-box;
+ background-color: #212121;
+ color: aliceblue; 
+
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  
+h1:hover{
+    color: wheat;
+
+}
+
+h2{ font-size: 1.38em;
+    position:fixed;
+    bottom: 1em;
+    right: 1em;;
+    
+}
+
+header{
+    margin:10em;
+}
+.story{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: xx-large;
+    height: 70vh;
+}
+.story{
+    opacity: 0;
+    filter: blur(3px);
+    transition: all 2s;
+}
+
+
+.show{
+    opacity:1;
+    filter: blur(0);
+
+}
+
+
+article{
+    margin: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+article button{
+ font-size: 1.3em;
+  /* border:10px solid snow; */
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.mole{
+    background-image: url(mole.jpg);
+    object-fit: cover;
+}
+
+#grid{
+    display: flex;
+    flex-wrap: wrap;
+    height: 605px;
+    width: 605px;
+    border: solid whitesmoke 1px;
+    justify-content: center;
+}
+
+.square{
+    height: 200px;
+    width: 200px;
+    border: solid whitesmoke 1px;
+}
